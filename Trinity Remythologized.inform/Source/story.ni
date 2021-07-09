@@ -1,5 +1,7 @@
 "Trinity Remythologized" by Jeff Nyman
 
+Include Trinity Remythologized by Jeff Nyman.
+
 Volume - Story World
 
 Book - Geography
