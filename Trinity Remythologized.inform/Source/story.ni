@@ -2,6 +2,30 @@
 
 Include Trinity Remythologized by Jeff Nyman.
 
+Volume - Story Mechanics
+
+Book - Scenes
+
+End of the World is a scene.
+End of the World begins when the time of day is 4:01 PM.
+End of the World ends when the story has ended.
+
+When End of the World begins:
+	end the story finally saying "TERMINAL STATE: Player has failed to escape the apocalypse."
+
+Part - Changing the Time - not for release
+
+Immanentize the eschaton is an action out of world.
+Understand "ie" as immanentize the eschaton.
+
+Carry out immanentize the eschaton:
+	now the time of day is 3:59 PM.
+
+Book - Time
+
+When play begins:
+	now the time of day is 3:30 PM.
+
 Volume - Story World
 
 Book - Geography
