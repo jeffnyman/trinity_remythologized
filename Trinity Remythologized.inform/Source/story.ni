@@ -26,6 +26,20 @@ Book - Time
 When play begins:
 	now the time of day is 3:30 PM.
 
+The realistic time rule is listed instead of the advance time rule in the turn sequence rules.
+
+Book - Direction and Orientation
+
+Part - Status Display
+
+Table of Trinity Status
+left	central	right
+"[location]"	"[watch time]"	""
+
+Rule for constructing the status line:
+	fill the status bar with the Table of Trinity Status;
+	rule succeeds.
+
 Volume - Story World
 
 Book - Geography
@@ -111,3 +125,20 @@ Grassy Clearing, Sinkhole and Wading are in the Temporal Loci.
 
 The Gates, Walks and Paths are in Kensington Gardens.
 The Water Areas and Temporal Loci are in Kensington Gardens.
+
+Book - Characters
+
+Part - Protagonist
+
+Chapter - Items
+
+Section - Watch
+
+The player wears a wristwatch.
+Understand "watch" as the wristwatch.
+
+The description of the wristwatch is "Your watch says it's [the time of day to the nearest one minute in words]."
+
+To say watch time:
+	if the player has the wristwatch:
+		say "[realistic time]".
