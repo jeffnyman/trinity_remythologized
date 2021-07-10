@@ -142,3 +142,12 @@ The description of the wristwatch is "Your watch says it's [the time of day to t
 To say watch time:
 	if the player has the wristwatch:
 		say "[realistic time]".
+		
+Volume - Story Execution
+
+Part - Movement
+
+Instead of going east from Grassy Area:
+	say "BARRIER: Player cannot get past this area yet."
+	
+Test long_water_blocked with "east" in Grassy Area.

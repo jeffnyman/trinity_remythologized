@@ -3,3 +3,7 @@ The general idea is that London is going to be hit by a nuclear strike when Worl
 The nuclear strike will occur at 4 PM. The game itself starts at 3:30 PM. Time will move forward by fifteen seconds for each turn. This means four turns will equal one minute.
 
 The above sets the overall context for the starting area. The starting area will need a geography to walk around in for these events. The geography will be a constrained part of Kensington Gardens.
+
+The player character won't know the the apocalypse is approaching. But they will get clues that something odd is happening. Ultimately those clues will tell the player character to be at a certain place at a certain time, although not really indicating why or what to do once there. In the original _Trinity_, the player basically just did what the game indicated because ... well, because why not? That's how the game is played. But in this remythologized version, the goal was to make it more clear why the player character would actually do any of this stuff.
+
+In the original _Trinity_, the ultimate goal is that the player has to get to Long Water at 4:00 as this is where the dimensional portal will be found. That's stiil pretty much the case in this remythologized version although the Long Water area has been expanded a bit to include a few more locations. Still the player has to first get to Long Water and the path to it will be blocked by some obstruction in the grassy area.
