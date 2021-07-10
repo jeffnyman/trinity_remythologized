@@ -143,6 +143,30 @@ To say watch time:
 	if the player has the wristwatch:
 		say "[realistic time]".
 		
+Section - Soccer Ball
+
+A soccer ball is in Flower Walk.
+
+The initial appearance of the soccer ball is "You can see a soccer ball partially hidden among the flowers."
+
+The description of the soccer ball is "It's about as ordinary a soccer ball as you can imagine.[if the soccer ball was not handled] Looking around, you don't see anyone who looks ready to claim the ball." [Maybe even conditionalize the condition further? Maybe only say that if the ball hasn't been seen?]
+
+Section - Tree
+
+A container called crooked old tree is in Lancaster Gate.
+The crooked old tree is scenery.
+
+The description of the crooked old tree is "It's quite a nice looking tree[if the soccer ball is in the crooked old tree], marred slightly by the soccer ball you managed to wedge into its branches[end if]."
+
+The examine containers rule does nothing when examining the crooked old tree.
+
+Instead of throwing the soccer ball at the crooked old tree:
+	say "The soccer ball wedges itself into the branches of the tree.";
+	now the soccer ball is in the crooked old tree;
+	rule succeeds.
+
+Test ball_in_tree with "east / take ball / north / north / look at tree / throw ball at tree / look at tree".
+
 Volume - Story Execution
 
 Part - Movement
