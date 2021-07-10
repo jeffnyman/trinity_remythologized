@@ -149,14 +149,18 @@ A soccer ball is in Flower Walk.
 
 The initial appearance of the soccer ball is "You can see a soccer ball partially hidden among the flowers."
 
-The description of the soccer ball is "It's about as ordinary a soccer ball as you can imagine.[if the soccer ball was not handled] Looking around, you don't see anyone who looks ready to claim the ball." [Maybe even conditionalize the condition further? Maybe only say that if the ball hasn't been seen?]
+To say soccer-ball-context:
+	if the soccer ball was not handled:
+		say " Looking around, you don't see anyone who looks ready to claim the ball"
+
+The description of the soccer ball is "It's about as ordinary a soccer ball as you can imagine.[if unexamined][soccer-ball-context].[end if]"
 
 Section - Tree
 
 A container called crooked old tree is in Lancaster Gate.
 The crooked old tree is scenery.
 
-The description of the crooked old tree is "It's quite a nice looking tree[if the soccer ball is in the crooked old tree], marred slightly by the soccer ball you managed to wedge into its branches[end if]."
+The description of the crooked old tree is "[if unexamined]It's clearly pretty old. It's tall enough and big enough that its canopy shades people as they walk along the path. [end if]It's quite a nice looking tree[if the soccer ball is in the crooked old tree], marred slightly by the soccer ball you managed to wedge into its branches[end if]."
 
 The examine containers rule does nothing when examining the crooked old tree.
 
@@ -165,7 +169,22 @@ Instead of throwing the soccer ball at the crooked old tree:
 	now the soccer ball is in the crooked old tree;
 	rule succeeds.
 
-Test ball_in_tree with "east / take ball / north / north / look at tree / throw ball at tree / look at tree".
+Test ball_in_tree with "kstate tree / kstate ball / east / kstate ball / examine ball / kstate ball / take ball / north / north / kstate tree / look at tree / throw ball at tree / look at tree".
+
+Section - Perambulator
+
+There is a closed openable container called a perambulator.
+The perambulator is fixed in place and pushable between rooms.
+
+Understand "pram" and "carriage" and "baby carriage" and "stroller" and "baby stroller" as the perambulator.
+
+Section - Old Oriental Woman
+
+A woman called an old woman is in Lancaster Gate.
+
+Section - Umbrella
+
+The old woman carries an umbrella.
 
 Volume - Story Execution
 

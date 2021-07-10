@@ -8,6 +8,7 @@ Part - Extensions
 
 Include Basic Screen Effects by Emily Short.
 Include Nuanced Timekeeping by Jeff Nyman.
+Include World Knowledge by Jeff Nyman.
 
 Part - Operation Details
 
