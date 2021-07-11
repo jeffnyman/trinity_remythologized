@@ -182,6 +182,19 @@ Section - Old Oriental Woman
 
 A woman called an old woman is in Lancaster Gate.
 
+The initial appearance of the old woman is "[if Lancaster Gate is unvisited]There's an old woman under the tree, clearly struggling to open an umbrella. The stiff wind isn't making it easy for her.[end if]"
+
+The description of the old woman is "[if unexamined]Her face is ... [i]wrong[/i].[p]You look a little closer and you actually have to conciously try not to make your shudder visible. The entire left side of her head is scarred with deep red lesions, twisting her oriental features into a hideous mask. She must have been in a really bad accident or something.[otherwise]She was clearly in a terrible accident, perhaps a fire. Now that she's aware of you, the oriental woman appears to furtively glance at you, quickly looking away if your eyes meet.[end if]"
+
+After examining the old woman for the first time:
+	now the printed name of the old woman is "old oriental woman";
+	now the old woman is proper-named;
+	continue the action.
+	
+Understand "oriental" as the old woman when the old woman is proper-named.
+
+Test describe_woman with "look / examine old woman / look" in Lancaster Gate.
+
 Section - Umbrella
 
 The old woman carries an umbrella.
